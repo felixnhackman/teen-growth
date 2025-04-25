@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeenGrowth | Daily Challenges</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">🌱</div>
+            <h1>TeenGrowth</h1>
+            <p class="tagline">Become 1% better every day</p>
+        </header>
+
+        <main>
+            <section class="challenge-card">
+                <h2>Today's Challenge</h2>
+                <div class="challenge-text" id="challengeText">
+                    Click below to get your challenge!
+                </div>
+                <button class="btn challenge-btn" id="getChallenge">Get Challenge</button>
+                <button class="btn complete-btn" id="completeChallenge">I Did It!</button>
+                <div class="share-section" id="shareSection">
+                    <p>Share your achievement!</p>
+                    <button class="btn share-btn" id="shareBtn">Share on WhatsApp</button>
+                </div>
+            </section>
+
+            <section class="thoughts-section">
+                <h2>Anonymous Thoughts</h2>
+                <div class="thoughts-container" id="thoughtsContainer">
+                    <!-- Thoughts will appear here -->
+                </div>
+                <div class="thought-input">
+                    <input type="text" id="thoughtInput" placeholder="Share your anonymous thought...">
+                    <button class="btn post-btn" id="postThought">Post</button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Made with ♥ for teens</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
